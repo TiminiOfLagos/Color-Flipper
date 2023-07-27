@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: orange;
+}
+
+
+
+main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: whitesmoke;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
+    height: 10vh;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px gold;
+    font-weight: 600;
+}
+
+span {
+    text-decoration: 2px line-through goldenrod;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    font-weight: 600;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+#pri {
+    text-decoration: 2px underline brown;
+}
+#background {
+    text-decoration: none;
+}
+
+input {
+    padding-inline: 0.5rem;
+    padding-block: 0.8rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    font-size: 1rem;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: whitesmoke;
+        box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    h2, #background {
+        font-size: 18px;
+    }
+
+
+  }
